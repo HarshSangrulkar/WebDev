@@ -1,0 +1,22 @@
+body{
+    background-color: aquamarine;
+    font-size: 150;
+}
+.mi{
+    height: 200;
+    background-color: yellow;
+}
+.csk{
+    
+    height: 200;
+    background-color: blue;
+}
+.heading{
+    font-size: 30;
+}
+#ipl{
+    font-size: 45;
+    text-decoration: underline;
+
+    color: yellow;
+}

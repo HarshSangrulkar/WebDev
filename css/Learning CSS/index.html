@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1. display properties of block elements
+        div{
+            border: 1px solid red;
+            width: 200px;
+            height: 200px;
+            margin: 25px;
+            padding: 50px;
+        } */
+
+        /* 2. display property of box
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 200px;       //box dimension : 200px x 200px
+            height: 200px;
+            border: 1px solid red;
+            margin: 25px;
+            padding: 50px;     //due to this dimension of the box changes
+                               // box dimension : 300px x 300px
+        } */
+
+
+        /* 3. display property of box, using box-sizing: border-box */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;  
+            /* due to this the box retains its orignal dimensions*/
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            margin: 25px;
+            padding: 50px;  /*box dimension : 200px x 200px*/
+        } 
+
+
+        /* 4. inline display
+        span{
+            border: 2px solid green;
+            width: 200px;   //no effect
+            height: 200px;  //no effect
+            margin: 50px;   //only horizontal margin changes
+            padding: 50px;  // padding can be changed
+        } */
+        
+
+        /*5. changing inline display to block display*/
+        span{
+            border: 2px solid green;
+            width: 200px;   
+            height: 200px;   
+            margin: 50px;   
+            padding: 50px;  
+            display: block;
+        }
+
+        .box2{
+            border: 3px solid blue;
+            width: 300px;
+            height: 200px;
+            margin: 50px;
+            padding: 50px;
+            display: inline-block;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- 1. 
+    <div>
+        Code Help
+    </div>
+    <div>
+        Code Help 2.0
+    </div> -->
+
+
+    <!-- 2,3. -->
+    <div class="box">
+        Welcome to Codehelp
+    </div>
+
+    <!-- 4,5. -->
+    <span>
+        Love Babbar
+    </span>
+    <span>
+        Love Babbar 2.0
+    </span>
+    <span class="box2">
+        Inline-Block
+    </span>
+    <span class="box2">
+        Inline-Block-2 
+    </span>
+</body>
+</html>

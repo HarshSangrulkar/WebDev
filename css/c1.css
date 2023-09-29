@@ -1,0 +1,19 @@
+body {
+    background-color: aqua;
+}
+h1{
+    color: blue;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+    height: 300;
+}
+hr{
+    border-top: dotted;
+    border-bottom: none;
+    border-color: blue;
+    border-width: 3;
+    width: 1000;
+}

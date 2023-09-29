@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning DOM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+
+
+    <div class="header">
+      <h1>JavaScript DOM </h1>
+
+      <div class="modal-buttons">
+        <button class="btn btn-alert" id="btn-alert">Alert</button>
+        <button class="btn btn-prompt" id="btn-prompt">Prompt</button>
+      </div>
+    </div>
+
+    <div class="contents">
+      <img src="images/img1.png" alt="JavaScript">
+
+      <h1 id="heading">JavaScript</h1>
+
+      <p id="intro">
+        JavaScript is the programming language of the Web. JavaScript is easy to learn. This tutorial will teach you
+        JavaScript from basic to advanced.
+
+      </p>
+      <p id="dynamicContent"></p>
+
+      <div class="lists">
+        <ul>
+          <h3>Features of DOM</h3>
+          <li>Accessing Elements</li>
+          <li>Accessing Elements</li>
+          <li>Accessing Elements</li>
+          <li>Accessing Elements</li>
+          <li>Accessing Elements</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <div class="forms">
+    <h1 id="Registration">Registration Form</h1>
+    <img src="images/img1.png" alt="Sample Image">
+    <form>
+      <div class="form-group">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required value="Harsh" onfocus="this.style.backgroundColor='yellow'" onblur="this.style.backgroundColor='white'">
+      </div>
+      <div class="form-group">
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Gmail:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+      </div>
+      <div class="form-group">
+        <label for="country">Country:</label><select name="country" id="country">
+            <option value="India" selected>India</option>
+            <option value="cannade">Cannada</option>
+            <option value="Australia">Australia</option>
+        </select>
+      </div>
+      <button id="btn" type="submit">Submit</button>
+    </form>
+  </div>
+  <div class="alert hidden">
+    <h2>This is an Alert!</h2>
+    <p>
+      This is an Alert Window!This is an Alert Window!This is an Alert Window!This is an Alert Window!This is an Alert Window!This is an Alert Window!This is an Alert Window!This is an Alert Window!This is an Alert Window!This is an Alert Window!This is an Alert Window!
+    </p>
+    <button id="alertOK">OK</button>
+  </div>
+
+  <div class="prompt hidden">
+    <h2>This is a Prompt</h2>
+    <p>
+      Please enter you age.
+    </p>
+    <input type="text" id="input">
+    <button class="modal-btn" id="promptCancel">Cancel</button>
+    <button class="modal-btn" id="promptOK">OK</button>
+  </div>
+
+  <div class="overlay hidden"></div>
+  
+
+  <script src="script.js"></script>
+
+  <!--<script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>-->
+</body>
+
+
+</html>

@@ -1,0 +1,657 @@
+* {
+margin:0 ;
+padding:0 ;
+box-sizing :border-box; 
+
+}
+
+header {
+display : flex;
+justify-content : space-evenly;
+align-items : center;
+height:60 px;
+width :100%;
+background :black;
+
+}
+
+.heading ul {
+display: flex;
+
+}
+
+.logo a {
+color: white;
+transition-duration : 1s;
+font-weight: 800 ;
+
+}
+
+.logo a hover {
+color :rgb(240,197,6 );
+transition-duration  s;
+
+}
+
+.heading ul li {
+list-style : none;
+
+}
+
+.heading ul li a {
+margin :5px;
+text-decoration : none;
+color :black;
+font-weight:500  ;
+position: relative;
+color :white;
+margin px px;
+font-size  px;
+transition-duration  s;
+
+}
+
+.heading ul li a active {
+color red;
+
+}
+
+.heading ul li a hover {
+color rgb(, , );
+transition-duration  s;
+
+}
+
+.heading ul li a  before {
+content '';
+height px;
+width px;
+position absolute;
+left ;
+bottom ;
+background-color  white;
+transition-duration  s;
+
+}
+
+.heading ul li a hover  before {
+width %;
+transition-duration  s;
+background-color rgb(, , );
+
+}
+
+#input {
+height px;
+width px;
+text-decoration  none;
+border px;
+padding px;
+
+}
+
+.logo a {
+color  white;
+font-size  px;
+font-weight  ;
+text-decoration none;
+
+}
+
+ion-icon {
+width px;
+height px;
+background-color  white;
+color black;
+
+}
+
+ion-icon hover {
+cursor  pointer;
+
+}
+
+  .search a {
+  display flex;
+ 
+}
+
+  header a ion-icon {
+  position relative;
+  right px;
+ 
+}
+
+  .img-slider img {
+  height px;
+  width px;
+ 
+}
+
+  @keyframes slide {
+  % {
+  left px;
+ 
+}
+
+  % {
+  left px;
+ 
+}
+
+  % {
+  left -px;
+ 
+}
+
+  % {
+  left -px;
+ 
+}
+
+  % {
+  left -px;
+ 
+}
+
+  % {
+  left -px;
+ 
+}
+
+  % {
+  left -px;
+ 
+}
+
+  % {
+  left -px;
+ 
+}
+
+  % {
+  left -px;
+ 
+}
+
+  % {
+  left -px;
+ 
+}
+
+  % {
+  left -px;
+ 
+}
+
+  % {
+  left px;
+ 
+}
+}
+
+  .img-slider {
+  display flex;
+  float left;
+  position relative;
+  width px;
+  height px;
+  animation-name slide;
+  animation-duration  s;
+  animation-iteration-count  infinite;
+  transition-duration s;
+ 
+}
+
+  .heading {
+  opacity ;
+ 
+}
+
+  .search {
+  display flex;
+  position  relative;
+ 
+}
+
+  .section {
+  width px;
+  overflow hidden;
+  justify-content  center;
+  align-items  center;
+  margin px auto;
+ 
+}
+
+  .section .container {
+  display flex;
+  width %;
+  height max-content;
+  flex-wrap  wrap;
+  justify-content center;
+  margin px auto;
+ 
+}
+
+  .section .container .items {
+  margin  px;
+  width px;
+  height  px;
+  background-color white;
+  border .px solid black;
+  border-radius  px;
+ 
+}
+
+  .section .container .items .name {
+  text-align center;
+  background-color rgb(, , );
+  height px;
+  padding-top px;
+  color white;
+  margin  ;
+ 
+}
+
+  .section .container .items .price {
+  float left;
+  padding-left px;
+  display  block;
+  width %;
+  color rgb(, , );
+  font-weight  ;
+ 
+}
+
+  .section .container .items .info {
+  padding-left px;
+  color rgb(, , );
+ 
+}
+
+  .section .container .items .img img {
+  width px;
+  height px;
+  margin  ;
+  padding  ;
+  border-radius px;
+  transition-duration .s;
+ 
+}
+
+  .section .container .items .img {
+  overflow  hidden;
+  margin  ;
+ 
+}
+
+  .section .container .items hover .img img {
+  transform  scale(.);
+  transition-duration .s;
+  border-radius px;
+ 
+}
+
+  footer {
+  display flex;
+  flex-direction  column;
+  background-color  black;
+  align-items  center;
+  color white;
+ 
+}
+
+  .footer {
+  display flex;
+  flex-direction  column;
+  align-items  center;
+  color white;
+  margin-top px;
+ 
+}
+
+  .social-media {
+  display flex;
+  justify-content  center;
+  color white;
+  flex-wrap  wrap;
+ 
+}
+
+  .social-media a {
+  color white;
+  margin px;
+  border-radius  px;
+  margin-top px;
+  color white;
+ 
+}
+
+  .social-media a ion-icon {
+  color white;
+  background-color  black;
+ 
+}
+
+  .social-media a hover ion-icon {
+  color red;
+  transform  translateY(px);
+ 
+}
+
+  .footer {
+  display  flex;
+  width %;
+  justify-content space-evenly;
+  align-items  center;
+  text-decoration  none;
+  flex-wrap  wrap;
+ 
+}
+
+  .footer {
+  font-weight ;
+  transition-duration  s;
+ 
+}
+
+  .footer hover {
+  color rgb(, , );
+ 
+}
+
+  .footer .heading {
+  font-weight  ;
+  font-size  px;
+ 
+}
+
+  .footer {
+  margin-top px;
+  margin-bottom  px;
+  display flex;
+  flex-wrap  wrap;
+  justify-content  center;
+ 
+}
+
+  .footer .heading hover {
+  color rgb(, , );
+ 
+}
+
+  .footer .div hover {
+  transform  scale(.);
+ 
+}
+
+  .footer h {
+  margin  px;
+ 
+}
+
+  .footer div {
+  margin px;
+ 
+}
+
+  .menu {
+  visibility hidden;
+ 
+}
+
+  .heading .ham active {
+  color  red;
+ 
+}
+
+  .items {
+  overflow hidden;
+ 
+}
+
+  .ham,
+.close {
+  cursor pointer;
+ 
+}
+
+  @media screen and (max-width px) {
+  .heading ul li {
+  display none;
+ 
+}
+
+  .items {
+  transform scale(.);
+ 
+}
+
+  .img-slider img {
+  height vw;
+  width vw;
+ 
+}
+
+  .ham active {
+  color red;
+ 
+}
+
+  .menu {
+  display flex;
+  flex-direction  column;
+  align-items  center;
+ 
+}
+
+  .menu a ion-icon {
+  position  absolute;
+ 
+}
+
+  @keyframes slide {
+  % {
+  left vw;
+ 
+}
+
+  % {
+  left vw;
+ 
+}
+
+  % {
+  left -vw;
+ 
+}
+
+  % {
+  left -vw;
+ 
+}
+
+  % {
+  left -vw;
+ 
+}
+
+  % {
+  left -vw;
+ 
+}
+
+  % {
+  left -vw;
+ 
+}
+
+  % {
+  left -vw;
+ 
+}
+
+  % {
+  left -vw;
+ 
+}
+
+  % {
+  left -vw;
+ 
+}
+
+  % {
+  left -vw;
+ 
+}
+
+  % {
+  left vw;
+ 
+}
+}
+
+  .menu ul {
+  display flex;
+  flex-direction column;
+  position  absolute;
+  width vw;
+  height vh;
+  background-color  black;
+  left ;
+  top ;
+  z-index ;
+  align-items  center;
+  justify-content  center;
+  opacity ;
+ 
+}
+
+  .close {
+  z-index ;
+  color white;
+  background-color  black;
+ 
+}
+
+  .close active {
+  color red;
+ 
+}
+
+  .menu ul li {
+  list-style  none;
+  margin  px;
+  border-top px solid white;
+  width %;
+  text-align center;
+  padding-top px;
+ 
+}
+
+  .menu ul li a {
+  text-decoration  none;
+  padding-top  px;
+  color white;
+  font-weight  ;
+ 
+}
+
+  .menu ul li a hover {
+  color rgb(, , );
+ 
+}
+
+  .img-slider {
+  display flex;
+  float left;
+  position relative;
+  width %;
+  height %;
+  animation-name slide;
+  animation-duration  s;
+  animation-iteration-count  infinite;
+  transition-duration s;
+ 
+}
+
+  .section {
+  width %;
+  overflow hidden;
+  justify-content  center;
+  align-items  center;
+  margin px auto;
+ 
+}
+
+  .heading {
+position relative;
+opacity  ;
+bottom px;
+
+}
+
+  .search a {
+  display flex;
+  flex-wrap  nowrap;
+ 
+}
+
+  .heading .ham {
+  background-color  black;
+  color white;
+ 
+}
+
+  #input {
+  width px;
+  flex-shrink ;
+ 
+}
+
+  header {
+  height px;
+ 
+}
+
+ 
+}
+
+  @media screen and (max-width px) {
+  .heading ul li {
+  display none;
+ 
+}
+
+  .heading {
+  opacity  ;
+  bottom px;
+ 
+}
+
+  header {
+  height px;
+  flex-wrap  wrap;
+  display  flex;
+  flex-direction  column;
+ 
+}
+
+  #input {
+  width px;
+ 
+}
+
+  .close {
+  z-index ;
+}
+
+  .search a {
+  display flex;
+  flex-wrap  nowrap;
+ 
+}
+
+ 
+}

@@ -1,0 +1,16 @@
+.webdev{
+    font-size: large;
+    background-color: white;
+
+}
+.stack{
+    text-decoration: underline;
+    background-color: white;
+}
+p{
+    background-color: yellow;
+    display: inline-block;
+}
+span{
+    background-color: red;
+}

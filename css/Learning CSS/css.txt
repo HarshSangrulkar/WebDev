@@ -1,0 +1,95 @@
+DISPLAY PROPERTIES
+
+Display: Block 
+    1. p
+    2. h1
+    3. div
+
+properties
+    1. new line
+    2. default width is extreme left to extreme right
+    3. width and height can be changed
+    4. margin and padding can be changed
+
+Display: Inline
+    1. a
+    2. span
+
+properties
+    1. same line
+    2. width = content size
+    3. margin -> only horizontal
+    4. padding -> possible
+
+
+Display: inline-block 
+    properties
+        1. behaves like inline
+        2. can customize width/height
+
+POSITION PROPERTIES
+
+position: static
+    1. default property of position 
+
+
+position: relative
+    1. relative to the window
+    2. attributes top/bottom/left/right can be changed
+    3. gap is maintained for the original loc of the moved img
+
+position: absolute
+    1. used when you want to overlap
+    2. child is absolute to its closest parent
+    3. gap is not maintained
+    4. attributes top/bottom/left/right can be changed
+
+    <div> -> relative
+        img1
+        img2
+        img3 -> absolute
+        img4
+
+FLEX BOX PROPERTIES
+
+CONTAINER
+
+display-flex;
+
+flex-direction: row | row-reverse | column | column-reverse
+
+flex-wrap: nowrap | wrap | wrap-reverse
+
+justify-content
+    1. center
+    2. start
+    3. end
+
+    4. space-around
+    5. space-between
+    6. space-even
+
+align-items
+    1. start
+    2. end
+    3. center
+    4. strech
+
+align-content
+    1. start
+    2. end
+    3. center
+
+INDIVIDUAL BOXES (flex-items)
+
+order -> we can change the order of the boxes 
+    1. -1
+    2. 6000
+
+flex-shrink
+
+flex-grow (occupies entire width)
+
+flex-basis (setting up dimensions)
+
+align-self

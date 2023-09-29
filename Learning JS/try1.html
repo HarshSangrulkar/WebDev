@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>tryna learn dom in js</h3>
+    <p>input any no.</p>
+    <input id="number">
+    <button type="button" onclick="myFunction()">Submit</button>
+    <p id="texty"></p>
+    <script>
+        function myFunction(){
+            let x= document.getElementById("number").value;
+            let koibhitext;
+            if(x<1 || x>10){
+                koibhitext= "invalid";
+            }
+            else{
+                koibhitext="valid";
+            }
+            document.getElementById("texty").innerHTML=koibhitext;
+        }
+        
+
+    </script>
+</body>
+</html>
